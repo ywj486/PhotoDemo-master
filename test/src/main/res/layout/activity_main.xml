@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.ywj.test.MainActivity"
+    android:layout_width="match_parent">
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择图片"
+        android:id="@+id/selectImage"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/uploadImage"
+    android:text="上传图片"
+    />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView"
+    android:src="@mipmap/ic_launcher"
+    />
+
+
+
+    <TextView
+        android:id="@+id/uploadImageResult"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:text="结果"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="320dp" />
+</LinearLayout>
